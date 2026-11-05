@@ -10,7 +10,7 @@ app = FastAPI(
 )
 
 # load pretrained model once during runtime
-with open(r"E:/Mlops Course/Video-1/ml_pipeline/model.pkl", "rb") as f:
+with open(r"model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # home endpoint
